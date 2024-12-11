@@ -2,6 +2,6 @@ from peewee import *
 
 database= MySQLDatabase(
     'infoapi',
-    user='josueweb', password='1234',
-    host='192.168.227.130', port=3306
+    user='prueba1', password='jgm981219Y',
+    host='34.31.105.197', port=3306
 )
