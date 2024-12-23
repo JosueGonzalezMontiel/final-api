@@ -358,7 +358,7 @@ def facturacion():
         data = factura_request.dict()
 
         # Cargar el documento de plantilla
-        template_path = r"C:\Users\gonsa\Desktop\backend2-main\venv\plantilla_factura.docx"
+        template_path = "\venv\plantilla_factura.docx"
         doc = Document(template_path)
         
         def replace_text(doc, placeholder, replacement):
