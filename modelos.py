@@ -73,7 +73,7 @@ class facturas(Model):
     fecha_aprovacion = IntegerField()
     certificado = IntegerField()
     id_cliente = ForeignKeyField(cliente)
-    nombre = CharField(max_length=50, unique=True)
+    nombre = CharField(max_length=50)
     numero = CharField(max_length=50)
     Direccion = CharField(max_length=50)
     Colonia =CharField(max_length=50)
